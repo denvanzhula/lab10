@@ -1,0 +1,98 @@
+body{
+	background-color: rgb(211, 232, 251);
+}
+#automat{
+	display: block;
+    position: relative;
+    justify-content:center;
+    margin: 0 auto;
+	border: 3px solid rgb(255, 255, 255);
+	border-radius: 10px;
+	width: 375px;
+	height: 450px;
+	background-color: rgb(145, 214, 240);
+	padding-top: 15px;
+}
+.wrap{	
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 10px;
+	width: 100px;
+	height: 100px;
+	background-color: rgb(210, 228, 243);
+	display: inline-block;
+	margin: 10px;
+}
+#divinp{	
+	text-align: right;
+	padding-right: 10px;
+}
+#press{	
+	font: bold 30px comic sans ms;
+	color: teal;
+}
+.tern{		
+	width: 100px;
+	height: 100px;
+	transform-style: preserve-3d;
+}
+.allside{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 75px;
+	backface-visibility: hidden;
+}
+.front{	
+	background-color: rgb(10, 132, 10);
+	color: red;
+}
+.back{
+	background-color: orange;
+	transform: rotateX(180deg);
+}
+.one{
+	transition: 5s;
+}
+.two{
+	transition: 8s;
+}	
+.three{	
+	transition: 10s;
+}
+#inp{
+	display: block;
+    position: relative;
+    justify-content: center;
+    margin: 0 auto;
+	width: 90px;
+	height: auto;
+	font-size: 20px;
+	cursor: pointer;
+	background-color: rgb(90, 118, 232);
+	border: 2px solid white;
+	border-radius: 10px;
+}
+#inp:hover{
+	background-color: rgb(66, 86, 164);
+}
+#attempts{
+	display: block;
+    position: relative;
+    justify-content: center;
+    margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(16, 25, 97, 0.921);
+}
+#result {
+	display: block;
+    position: relative;
+    justify-content: center;
+    margin: 0 auto;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+}
